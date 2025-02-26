@@ -4,45 +4,60 @@
 <head>
     <meta charset="utf-8">
     <title>Alportech | Criação de Sites</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="criação de sites, desenvolvimento web, sites profissionais, design web, SEO, marketing digital, agência de sites">
     <meta name="description" content="A Alportech cria sites modernos e otimizados para o Google. Profissionalismo, identidade visual e suporte 24h. Peça seu orçamento gratuito agora!">
-    <!-- ➜ Canonical Tag (Evita conteúdo duplicado)-->
+    
+    <!-- Canonical Tag (Evita conteúdo duplicado) -->
     <link rel="canonical" href="https://www.alportech.com.br/">
-    <!-- ➜ Meta Robots (Controla indexação pelos buscadores) -->
-    <meta name="robots" content="index, follow">
-    <!-- ➜ Open Graph (Para melhor exibição no Facebook e WhatsApp-->
+    
+    <!-- Meta Robots aprimorado -->
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+    <!-- Open Graph (Para Facebook e WhatsApp) -->
     <meta property="og:title" content="Criação de Sites Profissionais | Alportech">
     <meta property="og:description" content="Sites otimizados e modernos para sua empresa. Peça um orçamento grátis agora!">
     <meta property="og:image" content="https://www.alportech.com.br/img/capa.jpg">
     <meta property="og:url" content="https://www.alportech.com.br/">
     <meta property="og:type" content="website">
-    <!-- ➜ Twitter Card (Para melhor exibição no Twitter/X) -->
+    <meta property="og:site_name" content="Alportech">
+    <meta property="og:locale" content="pt_BR">
+
+    <!-- Twitter Card (Para Twitter/X) -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Criação de Sites Profissionais | Alportech">
     <meta name="twitter:description" content="Sites rápidos, modernos e responsivos. Peça seu orçamento!">
     <meta name="twitter:image" content="https://www.alportech.com.br/img/capa.jpg">
+
+    <!-- Google Site Verification -->
+    <meta name="google-site-verification" content="CÓDIGO-GERADO-PELO-GOOGLE">
+
     <!-- Favicon e Apple Touch Icon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
     <link rel="manifest" href="/site.webmanifest">
-    <!-- ➜ Pré-carregamento de fontes -->
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap" as="style">
-    <!-- ➜ Carregar CSS de forma assíncrona para performance-->
-    <link rel="stylesheet" href="css/style.css" media="print" onload="this.onload=null;this.removeAttribute('media');">
-    <!-- ➜ Pré-carregamento de imagens (LCP Optimization) -->
-    <link rel="preload" as="image" href="/img/banner-principal.jpg">
-    <!-- ➜ Google Site Verification (Para aparecer no Google Search Console)-->
-    <meta name="google-site-verification" content="CÓDIGO-GERADO-PELO-GOOGLE">
+    
+    <!-- Favicon para Windows (Tiles) -->
+    <meta name="msapplication-TileImage" content="/img/favicon-270x270.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
 
     <!-- favicon -->
     <link rel="icon" type="image/png" href="/img/favicon.png">
 
+    <!-- Pré-carregamento de fontes e otimização -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap" as="style">
+    
+    <!-- Carregar CSS de forma assíncrona -->
+    <link rel="stylesheet" href="css/style.css" media="print" onload="this.onload=null;this.removeAttribute('media');">
+
+    <!-- Pré-carregamento de imagens (LCP Optimization) -->
+    <link rel="preload" as="image" href="/img/banner-principal.jpg">
+
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Saira:wght@500;600;700&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap" rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -57,7 +72,37 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-    <link type="text/css" rel="stylesheet" charset="UTF-8" href="https://www.gstatic.com/_/translate_http/_/ss/k=translate_http.tr.26tY-h6gH9w.L.W.O/am=gAE/d=0/rs=AN8SPfoGXBOIjDP5u9X-Fj08BKzEvbDeLg/m=el_main_css">
+
+    <!-- Google Analytics (Caso ainda não tenha) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-G3N5KXJCMS"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-G3N5KXJCMS');
+    </script>
+
+    <!-- JSON-LD (Dados Estruturados para SEO) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Alportech",
+      "url": "https://www.alportech.com.br/",
+      "description": "A Alportech cria sites modernos e otimizados para o Google. Profissionalismo, identidade visual e suporte 24h.",
+      "publisher": {
+         "@type": "Organization",
+         "name": "Alportech",
+         "logo": "https://www.alportech.com.br/img/logo.png"
+      }
+    }
+    </script>
+
+    <!-- DNS Prefetch para melhorar performance -->
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//www.googletagmanager.com">
+
 </head>
 
 <body>
