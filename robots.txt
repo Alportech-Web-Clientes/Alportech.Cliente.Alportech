@@ -3,4 +3,9 @@ Disallow: /admin/
 Disallow: /privado/
 Allow: /
 
+# Melhorando rastreamento e indexação
+Disallow: /*.html$
+Disallow: /*?*
+
+# Sitemap
 Sitemap: https://www.alportech.com.br/sitemap.xml
