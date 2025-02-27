@@ -2,7 +2,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Política de Cookies | Alportech</title>
+    <title>Política de Cookies | Alportech </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Entenda como utilizamos cookies para melhorar sua experiência em nosso site.">
 
@@ -30,12 +30,16 @@
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-G3N5KXJCMS"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-G3N5KXJCMS');
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('consent', 'default', {
+            'ad_storage': 'granted',
+            'analytics_storage': 'granted'
+        });
+        gtag('js', new Date());
+        gtag('config', 'G-G3N5KXJCMS');
     </script>
-
+    
     <!-- JSON-LD (Dados Estruturados para SEO e LGPD) -->
     <script type="application/ld+json">
     {
@@ -49,10 +53,21 @@
          "name": "Cookies e privacidade"
       },
       "publisher": {
-         "@type": "Organization",
-         "name": "Alportech",
-         "logo": "https://www.alportech.com.br/img/logo.png"
-      }
+        "@type": "Organization",
+        "name": "Alportech",
+        "logo": "https://www.alportech.com.br/img/logo.png"
+     },
+     "sameAs": [
+     "https://x.com/Alportech_web",
+     "https://www.instagram.com/alportech_web/",
+     "https://www.linkedin.com/company/alportech/",
+      "https://web.facebook.com/profile.php?id=100094788291793"
+   ],
+     "contactPoint": {
+       "@type": "ContactPoint",
+       "telephone": "+55 11 94826-5997",
+       "contactType": "customer service"
+     }
     }
     </script>
 
